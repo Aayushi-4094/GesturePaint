@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CanvasWizard</title>
+</head>
+<body>
+    <button id="startButton">Start Drawing</button>
+    <button id="stopButton" style="display:none;">Stop Drawing</button>
+
+    <script>
+        let drawingWindow; // Reference to the drawing window
+
+        // Function to open the drawing window
+        function openDrawingWindow() {
+            drawingWindow = window.open("https://aayushi-4094.github.io/GesturePaint/", "Drawing Window");
+            document.getElementById("startButton").style.display = "none";
+            document.getElementById("stopButton").style.display = "block";
+        }
+
+        // Function to close the drawing window
+        function closeDrawingWindow() {
+            if (drawingWindow) {
+                drawingWindow.close();
+                drawingWindow = null;
+            }
+            document.getElementById("startButton").style.display = "block";
+            document.getElementById("stopButton").style.display = "none";
+        }
+
+        // Attach event listeners to the buttons
+        document.getElementById("startButton").addEventListener("click", openDrawingWindow);
+        document.getElementById("stopButton").addEventListener("click", closeDrawingWindow);
+    </script>
+</body>
+</html>

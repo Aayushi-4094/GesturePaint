@@ -1,23 +1,23 @@
 
 ```markdown
-# CanvasWizard: Unleash Your Creativity with Hand Gestures
+# openCV: Unleash Your Creativity with Hand Gestures
 
 ## Overview
 
-Welcome to CanvasWizard, an innovative and interactive digital art project that turns your computer's camera into a magical canvas! With CanvasWizard, you can create beautiful artwork using nothing but your hand gestures, merging the worlds of computer vision, machine learning, and artistic expression.
+Welcome to openCV, an innovative and interactive digital art project that turns your computer's camera into a magical canvas! With openCV, you can create beautiful artwork using nothing but your hand gestures, merging the worlds of computer vision, machine learning, and artistic expression.
 
-CanvasWizard relies on two powerful technologies:
+openCV relies on two powerful technologies:
 
-OpenCV (Open Source Computer Vision Library): OpenCV, an open-source software library, empowers CanvasWizard to process real-time webcam images and analyze hand movements for precise control.
+OpenCV (Open Source Computer Vision Library): OpenCV, an open-source software library, empowers openCV to process real-time webcam images and analyze hand movements for precise control.
 
 Mediapipe: Developed by Google, Mediapipe serves as the framework for hand landmark detection and tracking. It allows your hand gestures to seamlessly translate into creative digital strokes.
 
-This project is an exciting fusion of technology and artistry, offering an exploration into the future of human-computer interaction. So, let your imagination run wild, and let your hands paint your dreams with CanvasWizard!
+This project is an exciting fusion of technology and artistry, offering an exploration into the future of human-computer interaction. So, let your imagination run wild, and let your hands paint your dreams with openCV!
 
 ## Key Features
 
 ### 🌟 Real-time Hand Tracking
-Say goodbye to traditional tools! CanvasWizard leverages your webcam to track your hand movements in real-time, offering an immersive painting experience.
+Say goodbye to traditional tools! openCV leverages your webcam to track your hand movements in real-time, offering an immersive painting experience.
 
 ### 🎨 Gesture-Based Drawing
 No need for a stylus or mouse. Different hand gestures are recognized and translated into drawing actions, allowing you to create intricate patterns, shapes, and more.
@@ -32,10 +32,10 @@ Start afresh with a single click. The "CLEAR" button wipes the canvas clean, giv
 
 ### Installation
 
-1. **Clone the Repository**: Download CanvasWizard to your local machine:
+1. **Clone the Repository**: Download openCV to your local machine:
 
    ```plaintext
-   git clone https://github.com/your-username/CanvasWizard.git
+   git clone https://github.com/your-username/openCV.git
    ```
 
 2. **Install Dependencies**: Ensure you have the necessary Python packages. Install them using pip:
@@ -46,7 +46,7 @@ Start afresh with a single click. The "CLEAR" button wipes the canvas clean, giv
 
 ### Ready to Paint?
 
-Run CanvasWizard with a simple command:
+Run openCV with a simple command:
 
    ```plaintext
    python canvas_wizard.py
@@ -54,7 +54,7 @@ Run CanvasWizard with a simple command:
 
 ## How to Use
 
-CanvasWizard offers an intuitive and immersive drawing experience:
+openCV offers an intuitive and immersive drawing experience:
 
 - **Hand Detection**: Your webcam tracks your hand's every move in real-time.
 
@@ -66,7 +66,7 @@ CanvasWizard offers an intuitive and immersive drawing experience:
 
 ## Customization
 
-Explore endless possibilities by customizing CanvasWizard:
+Explore endless possibilities by customizing openCV:
 
 - **Brush Size**: Modify the code to suit your preferred brush size.
 
@@ -86,9 +86,9 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## Acknowledgments
 
-CanvasWizard is a collaborative effort, inspired by a passion for art and technology. We appreciate the open-source community and the amazing tools like Python, OpenCV, and Mediapipe that make projects like CanvasWizard possible.
+openCV is a collaborative effort, inspired by a passion for art and technology. We appreciate the open-source community and the amazing tools like Python, OpenCV, and Mediapipe that make projects like openCV possible.
 
 ---
 
-Feel the magic in your fingertips and create art like never before with CanvasWizard. Join us on this exciting journey of creativity and technology. If you have questions or ideas, reach out to our project maintainers.
+Feel the magic in your fingertips and create art like never before with openCV. Join us on this exciting journey of creativity and technology. If you have questions or ideas, reach out to our project maintainers.
 ```

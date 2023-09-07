@@ -1,5 +1,5 @@
 
-```markdown
+
 # GesturePaint: Unleash Your Creativity with Hand Gestures
 
 ## Overview
